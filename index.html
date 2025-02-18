@@ -7,50 +7,54 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #001F3F;
-            color: #FFF;
-            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
         .container {
-            background: rgba(255, 255, 255, 0.1);
+            background: white;
             padding: 40px;
             border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
-            max-width: 700px;
-            margin: auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: center;
         }
         h1 {
-            color: #FFD700;
-            font-size: 28px;
-            margin-bottom: 20px;
+            color: #001F3F;
+            font-size: 26px;
+            margin-bottom: 15px;
         }
         p {
-            font-size: 18px;
-            color: #FFF;
+            font-size: 16px;
+            color: #555;
             margin-bottom: 20px;
         }
         .survey-link {
             display: inline-block;
-            background: #FFD700;
-            color: #001F3F;
+            background: #001F3F;
+            color: #fff;
             padding: 15px 25px;
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
-            font-size: 20px;
+            font-size: 18px;
             margin-top: 20px;
             transition: 0.3s;
         }
         .survey-link:hover {
-            background: #FFA500;
-            color: #FFF;
+            background: #004080;
         }
         .qr-code {
             margin-top: 20px;
-            border: 5px solid #FFD700;
+            border: 3px solid #001F3F;
             padding: 10px;
             border-radius: 10px;
+            width: 150px;
         }
     </style>
 </head>
@@ -61,7 +65,7 @@
         <p>Your feedback is anonymous and will help improve pilot representation within the industry.</p>
         <a class="survey-link" href="https://docs.google.com/forms/d/e/1FAIpQLScBYNGYJifwYvJ4b-E-lU2mj471lCOAw54uuvUiM92C77bbow/viewform" target="_blank">📋 Take the Survey</a>
         <p>Or scan the QR code below:</p>
-        <img class="qr-code" src="pilot_survey_qr.png" alt="QR Code" width="200">
+        <img class="qr-code" src="pilot_survey_qr.png" alt="QR Code">
     </div>
 </body>
 </html>
