@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: url('https://unsplash.com/pt-br/fotografias/foto-de-foco-seletivo-da-alavanca-de-cambio-cj2I_KczBvY?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash') no-repeat center fixed;
+            background: url('https://images.unsplash.com/photo-1552773346-ca6976a5d4ca?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
             background-size: cover;
             color: #ffffff;
             margin: 0;
@@ -60,55 +60,21 @@
             border-radius: 10px;
             width: 150px;
         }
-        .contact-form {
-            background: rgba(0, 51, 102, 0.9);
-            padding: 30px;
-            border-radius: 10px;
-            text-align: center;
-            max-width: 500px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: none;
-            border-radius: 5px;
-            background: #e0e0e0;
-            color: #003366;
-        }
-        .contact-form button {
-            background: #66ccff;
-            color: #003366;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background: #3399cc;
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+    <img class="logo" src="A_modern_and_minimalist_logo_for_an_international_.png" alt="Pilot Workforce Logo">
     <div class="container">
-        <h1>📢 Participate in the Pilot Workforce Survey ✈️</h1>
+        <h1>Pilot Workforce Survey</h1>
         <p>We want to hear from you! This survey aims to gather insights into the working conditions of pilots.</p>
         <p>Your feedback is anonymous and will help improve pilot representation within the industry.</p>
-        <a class="survey-link" href="https://docs.google.com/forms/d/e/1FAIpQLScBYNGYJifwYvJ4b-E-lU2mj471lCOAw54uuvUiM92C77bbow/viewform" target="_blank">📋 Take the Survey</a>
+        <a class="survey-link" href="https://docs.google.com/forms/d/e/1FAIpQLScBYNGYJifwYvJ4b-E-lU2mj471lCOAw54uuvUiM92C77bbow/viewform" target="_blank">Take the Survey</a>
         <p>Or scan the QR code below:</p>
         <img class="qr-code" src="pilot_survey_qr.png" alt="QR Code">
-    </div>
-    
-    <div class="contact-form">
-        <h2 style="color: #66ccff;">Contact Us</h2>
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
     </div>
 </body>
 </html>
