@@ -9,18 +9,18 @@
             font-family: 'Arial', sans-serif;
             background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') no-repeat center center fixed;
             background-size: cover;
-            color: #fff;
+            color: #ffffff;
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
             height: 100vh;
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
         }
         .container {
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 51, 102, 0.9);
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -29,19 +29,19 @@
             margin-bottom: 20px;
         }
         h1 {
-            color: #FFD700;
+            color: #66ccff;
             font-size: 28px;
             margin-bottom: 15px;
         }
         p {
             font-size: 18px;
-            color: #f0f0f0;
+            color: #e0e0e0;
             margin-bottom: 20px;
         }
         .survey-link {
             display: inline-block;
-            background: #FFD700;
-            color: #001F3F;
+            background: #66ccff;
+            color: #003366;
             padding: 15px 25px;
             text-decoration: none;
             font-weight: bold;
@@ -51,21 +51,22 @@
             transition: 0.3s;
         }
         .survey-link:hover {
-            background: #FFA500;
+            background: #3399cc;
         }
         .qr-code {
             margin-top: 20px;
-            border: 3px solid #FFD700;
+            border: 3px solid #66ccff;
             padding: 10px;
             border-radius: 10px;
             width: 150px;
         }
         .contact-form {
-            background: rgba(0, 0, 0, 0.8);
-            padding: 20px;
+            background: rgba(0, 51, 102, 0.9);
+            padding: 30px;
             border-radius: 10px;
             text-align: center;
             max-width: 500px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         }
         .contact-form input, .contact-form textarea {
             width: 100%;
@@ -73,10 +74,12 @@
             margin-bottom: 10px;
             border: none;
             border-radius: 5px;
+            background: #e0e0e0;
+            color: #003366;
         }
         .contact-form button {
-            background: #FFD700;
-            color: #001F3F;
+            background: #66ccff;
+            color: #003366;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
@@ -84,7 +87,7 @@
             cursor: pointer;
         }
         .contact-form button:hover {
-            background: #FFA500;
+            background: #3399cc;
         }
     </style>
 </head>
@@ -99,7 +102,7 @@
     </div>
     
     <div class="contact-form">
-        <h2>Contact Us</h2>
+        <h2 style="color: #66ccff;">Contact Us</h2>
         <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
