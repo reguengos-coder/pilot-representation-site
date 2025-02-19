@@ -16,11 +16,12 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
         }
         .logo {
-            width: 150px;
+            width: 200px;
+            max-width: 90%;
             margin-bottom: 15px;
         }
         .site-title {
@@ -36,6 +37,22 @@
             justify-content: center;
             gap: 20px;
             margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .survey-link {
+            display: inline-block;
+            background: #66ccff;
+            color: #003366;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .survey-link:hover {
+            background: #3399cc;
         }
         .container {
             background: rgba(0, 51, 102, 0.9);
@@ -44,32 +61,18 @@
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
             max-width: 600px;
             text-align: center;
+            width: 90%;
             margin-bottom: 20px;
         }
         h1 {
             color: #66ccff;
-            font-size: 28px;
+            font-size: 24px;
             margin-bottom: 15px;
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
             color: #e0e0e0;
             margin-bottom: 20px;
-        }
-        .survey-link {
-            display: inline-block;
-            background: #66ccff;
-            color: #003366;
-            padding: 15px 25px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            font-size: 18px;
-            margin-top: 20px;
-            transition: 0.3s;
-        }
-        .survey-link:hover {
-            background: #3399cc;
         }
         .qr-container {
             display: flex;
@@ -85,17 +88,50 @@
             width: 150px;
             margin-bottom: 10px;
         }
+
+        /* 🔹 Responsividade para iPad e telemóveis 🔹 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .survey-link {
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+            .logo {
+                width: 150px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .site-title {
+                font-size: 24px;
+            }
+            .container {
+                padding: 15px;
+            }
+            .survey-link {
+                font-size: 14px;
+                padding: 8px 12px;
+            }
+        }
     </style>
 </head>
 <body>
     <img class="logo" src="logo2.png" alt="IPRG Logo">
     <h1 class="site-title">International Pilots Representation Group</h1>
-    
+
     <div class="nav-bar">
         <a class="survey-link" href="index.html">Home</a>
         <a class="survey-link" href="mission.html">Our Mission</a>
     </div>
-    
+
     <div class="container">
         <h1>Pilot Workforce Survey</h1>
         <p>We want to hear from you! This survey aims to gather insights into the working conditions of pilots.</p>
