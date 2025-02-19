@@ -67,10 +67,11 @@
             margin-bottom: 10px;
         }
         .logo {
-        width: 150px;
-        margin-bottom: 20px;
-        mix-blend-mode: screen; /* Tenta remover fundos claros */
-    }
+            width: 150px;
+            margin-bottom: 20px;
+            opacity: 0.8; /* Suaviza a fusão do logo com o fundo */
+            filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.3)); /* Adiciona um leve brilho */
+        }
         .nav-bar {
             display: flex;
             justify-content: center;
@@ -80,7 +81,7 @@
     </style>
 </head>
 <body>
-    <<img class="logo" src="logo1.png" alt="Pilot Workforce Logo">
+    <img class="logo" src="logo1.png" alt="Pilot Workforce Logo">
     
     <div class="nav-bar">
         <a class="survey-link" href="index.html">Home</a>
