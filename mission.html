@@ -7,81 +7,65 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #ffffff;
-            color: #000000;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header {
             background-color: #101f78;
+            color: white;
             padding: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 100%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         header img.logo {
             height: 50px;
+            margin-right: 20px;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #101f78;
+        }
+        footer {
+            background-color: #101f78;
+            color: white !important;
+            padding: 10px;
+            text-align: center;
         }
         .nav-bar {
             display: flex;
             gap: 20px;
+            flex-wrap: wrap;
+            background-color: #101f78;
+            padding: 10px;
         }
         .nav-bar a {
-            color: #ffffff;
+            color: white;
             text-decoration: none;
             padding: 10px 20px;
             border-radius: 5px;
-            background-color: #101f78;
-            font-weight: bold;
-            transition: 0.3s;
+            transition: background 0.3s;
         }
         .nav-bar a:hover {
-            background-color: #003366;
-        }
-        .container {
-            padding: 40px;
-            max-width: 850px;
-            margin: 20px auto;
-            text-align: center;
-        }
-        h1, h2 {
-            color: #000000;
-        }
-        p, ul li {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #000000;
-        }
-        footer {
-            background-color: #101f78;
-            color: #ffffff !important;
-            padding: 10px 20px;
-            width: 100%;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-        }
-        a {
-            color: #101f78;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
+            background-color: #66ccff;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="logo2.png" alt="IPRG Logo" class="logo">
+        <div style="display: flex; align-items: center;">
+            <img src="logo2.png" alt="IPRG Logo" class="logo">
+            <h1>Our Mission</h1>
+        </div>
         <nav class="nav-bar">
             <a href="index.html">Home</a>
             <a href="mission.html">Our Mission</a>
@@ -89,42 +73,25 @@
         </nav>
     </header>
 
-    <div class="container">
-        <h1>The Importance of Pilot Advocacy and Union Representation</h1>
-        <p>The <strong>International Pilots Representation Group (IPRG)</strong> is a global organization committed to advocating for the rights, working conditions, and professional interests of pilots worldwide.</p>
+    <section>
+        <h2>The Importance of Pilot Advocacy and Union Representation</h2>
+        <p>Pilots play a crucial role in global aviation safety and efficiency. However, without strong union representation, pilots often face unfair labor practices, reduced job security, and a lack of negotiating power. The International Pilots Representation Group (IPRG) is dedicated to promoting fair treatment, safety, and professionalism for pilots worldwide.</p>
         
-        <h2>Why Pilots Need Representation</h2>
-        <p>Pilots play a critical role in ensuring the safety and efficiency of global air travel, yet they often find themselves subject to unfair labor practices, unstable contracts, and corporate decisions that undermine their job security.</p>
+        <h2>Why Unions Matter in Aviation</h2>
+        <p>From negotiating fair wages to ensuring safe working conditions, unions have been pivotal in enhancing the aviation industry's standards. Union representation has led to improvements such as:</p>
         <ul>
-            <li>Unilateral contract changes that reduce benefits and increase workloads.</li>
-            <li>Insufficient rest policies, leading to fatigue and safety concerns.</li>
-            <li>Pay disparities and inconsistent compensation structures.</li>
-            <li>Retaliation for voicing safety concerns.</li>
+            <li>Better rest policies, reducing pilot fatigue and enhancing safety.</li>
+            <li>Fair and transparent pay structures across different airlines.</li>
+            <li>Protection against unjust terminations and contract changes.</li>
+            <li>Advocacy for mental health and well-being programs.</li>
         </ul>
 
-        <h2>The Role of Unions in Protecting Pilots</h2>
-        <p>Historically, unions have played a pivotal role in improving the working conditions of pilots.</p>
-        <ul>
-            <li><strong>Collective Bargaining Power:</strong> Ensuring pilots receive fair pay, benefits, and work-life balance.</li>
-            <li><strong>Legal Protection:</strong> Representation in disputes involving airlines or regulatory authorities.</li>
-            <li><strong>Job Security:</strong> Preventing unfair dismissals and contractual violations.</li>
-            <li><strong>Safety Advocacy:</strong> Addressing critical issues like pilot fatigue, mental health, and training quality.</li>
-        </ul>
+        <h2>Our Mission at IPRG</h2>
+        <p>The IPRG strives to unify pilots globally, providing a platform for a collective voice that influences policy-making, enhances workplace safety, and promotes fair labor practices. By fostering a culture of safety and respect, IPRG aims to uplift pilots' standards and contribute positively to the aviation industry's future.</p>
 
-        <h2>The Mission of IPRG</h2>
-        <p>The International Pilots Representation Group (IPRG) aims to unify pilots across the globe, offering a collective voice to address common concerns and establish industry-wide standards.</p>
-
-        <h2>Join the Movement</h2>
-        <p>If you are a pilot, aviation professional, or an advocate for fair labor practices, we invite you to be part of a movement dedicated to empowering pilots worldwide.</p>
-
-        <h3>Useful Resources:</h3>
-        <ul>
-            <li><a href="https://www.alpa.org/" target="_blank">Air Line Pilots Association (ALPA)</a></li>
-            <li><a href="https://www.eurocockpit.be/" target="_blank">European Cockpit Association (ECA)</a></li>
-            <li><a href="https://www.ifalpa.org/" target="_blank">International Federation of Air Line Pilots' Associations (IFALPA)</a></li>
-            <li><a href="https://www.icao.int/" target="_blank">International Civil Aviation Organization (ICAO)</a></li>
-        </ul>
-    </div>
+        <h2>How You Can Support</h2>
+        <p>Whether you are a pilot, aviation professional, or an advocate for labor rights, your support can make a difference. Join us in advocating for a safer, fairer aviation industry where pilots' voices are heard, and their contributions are valued.</p>
+    </section>
 
     <footer>
         <p>&copy; 2025 Pilot Representation. All rights reserved.</p>
