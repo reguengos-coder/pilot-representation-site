@@ -24,9 +24,9 @@
             margin-bottom: 15px;
         }
         .site-title {
-            font-size: 32px;
+            font-size: 36px;
             font-weight: bold;
-            color: #66ccff;
+            color: #ffffff;
             text-align: center;
             margin-bottom: 15px;
         }
@@ -39,36 +39,64 @@
         }
         .survey-link {
             display: inline-block;
-            background: #66ccff;
+            background: #ffffff;
             color: #003366;
-            padding: 10px 15px;
+            padding: 10px 20px;
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
-            font-size: 14px;
-            margin-top: 10px;
+            font-size: 16px;
             transition: 0.3s;
         }
         .survey-link:hover {
-            background: #3399cc;
+            background: #cccccc;
         }
         .container {
-            background: rgba(0, 51, 102, 0.9);
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
             max-width: 600px;
             text-align: center;
             width: 90%;
             margin-bottom: 20px;
         }
+        h1 {
+            color: #ffffff;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        .qr-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
         .qr-code {
-            border: 3px solid #66ccff;
+            border: 2px solid #ffffff;
             padding: 10px;
             border-radius: 10px;
-            width: 100px;
-            max-width: 100%;
+            width: 120px;
             margin-bottom: 10px;
+        }
+        .survey-button {
+            display: inline-block;
+            background: #ffffff;
+            color: #003366;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+        .survey-button:hover {
+            background: #cccccc;
         }
         footer {
             background-color: #003366;
@@ -98,7 +126,7 @@
         <div class="qr-container">
             <p>Or scan the QR code below:</p>
             <img class="qr-code" src="pilot_survey_qr.png" alt="QR Code">
-            <a class="survey-link" href="https://docs.google.com/forms/d/e/1FAIpQLScrryhGn0f_CEuhuuBgzDDDKVrdBjlrf6CkhSWDF6nrWjdNUw/viewform" target="_blank">Take the Survey</a>
+            <a class="survey-button" href="https://docs.google.com/forms/d/e/1FAIpQLScrryhGn0f_CEuhuuBgzDDDKVrdBjlrf6CkhSWDF6nrWjdNUw/viewform" target="_blank">Take the Survey</a>
         </div>
     </div>
     <footer>
