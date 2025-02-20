@@ -8,8 +8,8 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #101f78;
-            color: #ffffff;
+            background-color: #ffffff;
+            color: #000000;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,13 +18,13 @@
             min-height: 100vh;
         }
         header {
-            background-color: #003366;
-            color: white;
+            background-color: #101f78;
             padding: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         header img.logo {
             height: 50px;
@@ -34,43 +34,43 @@
             gap: 20px;
         }
         .nav-bar a {
-            color: #003366;
+            color: #ffffff;
             text-decoration: none;
             padding: 10px 20px;
             border-radius: 5px;
-            background-color: #ffffff;
+            background-color: #101f78;
             font-weight: bold;
             transition: 0.3s;
         }
         .nav-bar a:hover {
-            background-color: #cccccc;
+            background-color: #003366;
         }
         .container {
             padding: 40px;
             max-width: 850px;
-            margin: 20px;
-            text-align: left;
+            margin: 20px auto;
+            text-align: center;
         }
         h1, h2 {
-            color: #ffffff;
-            text-align: center;
+            color: #000000;
         }
         p, ul li {
             font-size: 18px;
             line-height: 1.6;
-            color: #ffffff;
+            color: #000000;
         }
         footer {
-            background-color: #003366;
-            color: white;
+            background-color: #101f78;
+            color: #ffffff;
             padding: 10px 20px;
             width: 100%;
             text-align: center;
             position: fixed;
             bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
         }
         a {
-            color: #FFD700;
+            color: #101f78;
             text-decoration: none;
             font-weight: bold;
         }
@@ -81,10 +81,7 @@
 </head>
 <body>
     <header>
-        <div style="display: flex; align-items: center;">
-            <img src="logo2.png" alt="IPRG Logo" class="logo">
-            <h1>Our Mission - IPRG</h1>
-        </div>
+        <img src="logo2.png" alt="IPRG Logo" class="logo">
         <nav class="nav-bar">
             <a href="index.html">Home</a>
             <a href="mission.html">Our Mission</a>
