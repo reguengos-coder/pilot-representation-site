@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom, rgba(0, 51, 102, 1), rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.5), rgba(0, 51, 102, 0));
+            background-color: #101f78;
             color: #ffffff;
             margin: 0;
             padding: 0;
@@ -17,7 +17,6 @@
             align-items: center;
             justify-content: center;
             min-height: 100vh;
-            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
         }
         .logo {
             width: 200px;
@@ -30,7 +29,6 @@
             color: #66ccff;
             text-align: center;
             margin-bottom: 15px;
-            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         }
         .nav-bar {
             display: flex;
@@ -64,62 +62,14 @@
             width: 90%;
             margin-bottom: 20px;
         }
-        h1 {
-            color: #66ccff;
-            font-size: 24px;
-            margin-bottom: 15px;
-        }
-        p {
-            font-size: 16px;
-            color: #e0e0e0;
-            margin-bottom: 20px;
-        }
-        .qr-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        .qr-code {
-            border: 3px solid #66ccff;
-            padding: 10px;
-            border-radius: 10px;
-            width: 150px;
-            margin-bottom: 10px;
-        }
-
-        /* 🔹 Responsividade para iPad e telemóveis 🔹 */
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
-            h1 {
-                font-size: 22px;
-            }
-            p {
-                font-size: 14px;
-            }
-            .survey-link {
-                font-size: 14px;
-                padding: 10px 15px;
-            }
-            .logo {
-                width: 150px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .site-title {
-                font-size: 24px;
-            }
-            .container {
-                padding: 15px;
-            }
-            .survey-link {
-                font-size: 14px;
-                padding: 8px 12px;
-            }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 10px 20px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
         }
     </style>
 </head>
@@ -130,7 +80,7 @@
     <div class="nav-bar">
         <a class="survey-link" href="index.html">Home</a>
         <a class="survey-link" href="mission.html">Our Mission</a>
-        <a class="survey-link" href="union-wins.html">Union Wins</a> <!-- Novo botão adicionado -->
+        <a class="survey-link" href="union-wins.html">Union Wins</a>
     </div>
 
     <div class="container">
@@ -143,7 +93,7 @@
             <a class="survey-link" href="https://docs.google.com/forms/d/e/1FAIpQLScrryhGn0f_CEuhuuBgzDDDKVrdBjlrf6CkhSWDF6nrWjdNUw/viewform" target="_blank">Take the Survey</a>
         </div>
     </div>
-     <footer>
+    <footer>
         <p>&copy; 2025 Pilot Representation. All rights reserved.</p>
     </footer>
 </body>
